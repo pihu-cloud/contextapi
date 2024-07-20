@@ -7,12 +7,12 @@ const App = () => {
   return (
     <div>
 
-      <h1 style={{background:"yellow"}}>Here is the example of ContextApi, I have used to make Dark and Light mode Theme</h1>
+      <h1 style={{background:"pink"}}>Here is the example of ContextApi, I have used to make Dark and Light mode Theme</h1>
       <ContextProvider/>
       <br/>
       <br/>
       <br/>
-      <h1 style={{background:"yellow"}}>Here is the example of Dynamic context, I send the the movie data from MovieContext to MovieList, and render the Data's </h1>
+      <h1 style={{background:"pink"}}>Here is the example of Dynamic context, I send the the movie data from MovieContext to MovieList, and render the Data's </h1>
 
       <MovieProvider>
         <MovieList/>
